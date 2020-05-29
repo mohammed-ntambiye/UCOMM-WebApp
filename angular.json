@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ucomm-webApp"
+    }
+  },
+  "defaultProject": "ucomm-webApp",
+  "cli": {
+    "analytics": false
+  }
 }
