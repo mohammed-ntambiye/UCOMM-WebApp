@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  active= false;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toogleClass(){
+    console.log("clicked")
+    this.active = !this.active;
   }
 
 }
