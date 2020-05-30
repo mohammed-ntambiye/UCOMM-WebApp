@@ -90,7 +90,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "/ucomm-webApp/node_modules/bulma/css/bulma.css"
+              "../node_modules/bulma/css/bulma.css"
             ],
             "scripts": []
           }
