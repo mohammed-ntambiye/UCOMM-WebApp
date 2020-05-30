@@ -89,7 +89,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "/ucomm-webApp/node_modules/bulma/css/bulma.css"
             ],
             "scripts": []
           }
