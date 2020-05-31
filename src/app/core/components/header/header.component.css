@@ -3,14 +3,10 @@
   margin-right: 20px;
 }
 
-.fa-twitter {
-  color: #0084b4;
+.navbar-item img{
+  max-height: unset;
 }
 
-.fa-facebook {
-  color: #4267B2;
-}
-
-.fa-instagram {
-  color: #E1306C;
+.navbar-item, .navbar-link{
+ font-weight: bold;
 }

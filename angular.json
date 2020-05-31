@@ -25,7 +25,8 @@
               "src/_redirects"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -119,7 +120,9 @@
               "devServerTarget": "ucomm-webApp:serve:production"
             }
           }
+          
         }
+       
       }
     }
   },
