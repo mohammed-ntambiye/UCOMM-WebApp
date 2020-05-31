@@ -14,3 +14,10 @@
 .fa-instagram {
   color: #E1306C;
 }
+.navbar-item img{
+  max-height: unset;
+}
+
+.navbar-item, .navbar-link{
+ font-weight: bold;
+}
