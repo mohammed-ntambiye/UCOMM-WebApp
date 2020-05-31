@@ -1,58 +1,78 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div>
+  </div>
   <div class="navbar-brand">
-    <a class="navbar-item" href="https://bulma.io">
-      <!-- <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> -->
+    <a class="navbar-item" href="/homepage">
+      <img src="../../../../assets/Images/UCOMM-logo.png" alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" width="80">
     </a>
-
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+    <a (click)="toogleClass()" role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+      data-target="main-nav">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
-
-  <div id="navbarBasicExample" class="navbar-menu">
+  <div id="main-nav" [ngClass]="active ? 'is-active' : ''"  class="navbar-menu">
     <div class="navbar-start">
       <a class="navbar-item">
         Home
       </a>
-
       <a class="navbar-item">
-        Documentation
+        Projects
       </a>
-
+      <a class="navbar-item">
+        Member Area
+      </a>
+      <a class="navbar-item">
+        Volenteer
+      </a>
+      <a class="navbar-item">
+        Events
+      </a>
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
-          More
+          News/Blong
         </a>
-
         <div class="navbar-dropdown">
           <a class="navbar-item">
-            About
-          </a>
-          <a class="navbar-item">
-            Jobs
-          </a>
-          <a class="navbar-item">
-            Contact
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            Report an issue
+            UNCOMM TV
           </a>
         </div>
       </div>
     </div>
 
     <div class="navbar-end">
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Contact
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item">
+            Useful links
+          </a>
+        </div>
+      </div>
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
+          <a class="button is-rounded">
+            <strong>Register</strong>
           </a>
-          <a class="button is-light">
-            Log in
-          </a>
+        </div>
+      </div>
+      <div class="social-icons">
+        <div class="navbar-item">
+          <span class="icon">
+           <a href="https://www.facebook.com/ucommsocial/"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a>
+          </span>
+          <span class="icon">
+            <a href="https://twitter.com/ucommsocial"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a>
+          </span>
+          <span class="icon">
+            <a href=""><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a>
+          </span>
+          <span class="icon">
+           <a href="mailto:office@ucomm.org.uk"> <i class="fa fa-envelope fa-1x" aria-hidden="true"></i></a>
+          </span>
         </div>
       </div>
     </div>
