@@ -1,13 +1,13 @@
-.bottomFooter{
-    margin-bottom: 0%;
+.bottomFooter {
+  margin-bottom: 0%;
 }
-.footer{
-    padding-bottom: 10px;
-    font-size: 14px;
+
+.footer {
+  padding-bottom: 10px;
+  font-size: 14px;
+  margin-top: 100px
 }
-.sponsors{
-    Margin-top: 0px;
+
+.sponsors {
+  Margin-top: 0px;
 }
-/* .donate{
-    margin-top: 20px;
-} */
