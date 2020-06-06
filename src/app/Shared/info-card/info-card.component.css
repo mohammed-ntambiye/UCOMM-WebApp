@@ -1,0 +1,11 @@
+.content {
+  height: 23em;
+}
+
+.column a {
+  text-decoration: none;
+}
+
+.container .content {
+  overflow: auto;
+}
