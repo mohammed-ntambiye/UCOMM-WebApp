@@ -1,4 +1,65 @@
-h1{
-    color: green;
-    font-size : x-large;
+h1 {
+  color: green;
+  font-size: x-large;
+}
+
+.is-one-third a {
+  text-decoration: none;
+  color: black;
+}
+
+ .is-one-third {
+  overflow: hidden;
+}
+
+.is-one-third a :hover {
+  color: darkgreen;
+}
+
+.icon {
+  height: 3.9rem;
+  width: 3.9rem;
+}
+
+article {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  article {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  article {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  article {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  section {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

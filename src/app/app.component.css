@@ -1,3 +1,24 @@
-body{
-    margin: 10px;
+html,
+body {
+  margin: 10px;
+  height: 100%;
+  overflow: hidden
+}
+
+hr {
+  margin: 0px;
+  height: 2px;
+  border-width: 0;
+}
+
+hr:nth-child(1) {
+  background: black;
+}
+
+hr:nth-child(2) {
+  background: yellow;
+}
+
+hr:nth-child(3) {
+  background: red;
 }
