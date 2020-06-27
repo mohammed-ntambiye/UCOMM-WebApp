@@ -6,6 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './core/components/header/header.component';
 import { FooterComponent } from './core/components/footer/footer.component';
 import { InfoCardComponent } from './Shared/info-card/info-card.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { InfoCardComponent } from './Shared/info-card/info-card.component';
   ],
   imports: [
     BrowserModule,
+    CarouselModule,
+    BrowserAnimationsModule,
     AppRoutingModule
   ],
   
