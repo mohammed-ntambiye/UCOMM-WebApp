@@ -3,19 +3,19 @@
         "Title": "About Us",
         "ImageUrl": "",
         "src": "/about-us",
-        "Content": "UCOMM is all about you. UCOMM is your good companion in situations of loneliness. It is a ‘backup’ or ‘place to  run to’ in case you have a problem or  need help. UCOMM is a nonprofit charity organisation, originally created by Ugandans in Greater Manchester for the benefit of all people of black, asian, and minority ethnic origin living in Greater Manchester and surrounding areas. We have recently extended our services to other areas beyond Greater Manchester,and the UK, with the aim of creating the possibility of collaborating with other charities, organisations, and individuals around the world."
+        "Content": "UCOMM is all about you. UCOMM is your good companion in situations of loneliness. It is a ‘backup’ or ‘place to  run to’ in case you have a problem or  need help."
     },
     "Aim": {
         "Title": "Aim",
         "ImageUrl": "",
         "src": "/about-us",
-        "Content": "We are confident there is something for everyone regardless of age, so please feel free to browse our website to see what we have to currently offer. If you have any suggestions of what you would like to see offered within your community, then please do join in our online discussion groups, or send us an email to office@ucomm.org.uk."
+        "Content": "We are confident there is something for everyone regardless of age, so please feel free to browse our website to see what we have to currently offer."
     },
     "Donations": {
         "Title": "Your Donations ",
         "ImageUrl": "",
         "src": "/donations",
-        "Content": "Our organisation is run entirely by volunteers, by making a donation today, you will be taking a big step towards supporting UCOMM and your Community. Please click the link below if you wish to become a UCOMM Volunteer "
+        "Content": "Our organisation is run entirely by volunteers, by making a donation today, you will be taking a big step towards supporting UCOMM and your Community."
     
     }
 }

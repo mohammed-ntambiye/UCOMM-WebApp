@@ -1,11 +1,23 @@
 .content {
-  height: 23em;
+  height: 10em;
 }
 
 .column a {
   text-decoration: none;
 }
+.card-content{
+  background-color:rgb(250, 250, 250);
+}
 
 .container .content {
   overflow: auto;
+}
+
+.features{
+  margin-top: 20px;
+}
+
+.container{
+  padding-left: 0;
+  padding-right: 0;
 }
