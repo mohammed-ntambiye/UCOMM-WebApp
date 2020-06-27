@@ -1,81 +1,107 @@
-<section class="hero is-info is-small">
-  <div class="hero-body">
-    <div class="container has-text-centered">
-      <p class="title">
-        Welcome to Ucomm
-      </p>
-      <p class="subtitle">
-        Happy to see you here
-      </p>
-    </div>
-  </div>
-</section>
-<div class="box cta">
-  <p class="has-text-centered">
-    <span class="tag is-primary">New</span> Were looking for a Projects Manager Volunter
-  </p>
-</div>
- <section class="section">
-  <div class="container">
-    <div class="columns is-multiline">
-      <div class="column is-one-third">
-        <a href="/">
-          <article class="notification media has-background-white">
-            <figure class="media-left">
-              <span class="icon">
-                <img src="../../assets/Images/icons/charity.png">
-              </span>
-            </figure>
-            <div class="media-content">
-              <div class="content">
-                <h1 class="title is-size-4">Donate</h1>
-                <p class="is-size-5 subtitle">
-                  Your donation will make a difference
-                </p>
-              </div>
-            </div>
-          </article>
-        </a>
-      </div>
-      <div class="column is-one-third">
-        <a href="/">
-          <article class="notification media has-background-white">
-            <figure class="media-left">
-              <span class="icon">
-                <img src="../../assets/Images/icons/volunteer.png">
-              </span>
-            </figure>
-            <div class="media-content">
-              <div class="content">
-                <h1 class="title is-size-4">Volunter</h1>
-                <p class="is-size-5 subtitle">
-                  Joint the team and make a difference
-                </p>
-              </div>
-            </div>
-          </article>
-        </a>
-      </div>
-      <div class="column is-one-third">
-        <a href="/">
-          <article class="notification media has-background-white">
-            <figure class="media-left">
-              <span class="icon">
-                <img src="../../assets/Images/icons/register.png">
-              </span>
-            </figure>
-            <div class="media-content">
-              <div class="content">
-                <h1 class="title is-size-4">Sign up</h1>
-                <p class="is-size-5 subtitle">
-                  Sign up and enjoy all the benefits Ucomm offers
-                </p>
-              </div>
-            </div>
-          </article>
-        </a>
+<article class="section">
+  <section class="hero is-info is-small">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <p class="title">
+          Welcome to Ucomm
+        </p>
+        <p class="subtitle">
+          Happy to see you here
+        </p>
       </div>
     </div>
+    <div class="box cta">
+      <p class="has-text-centered">
+        <span class="tag is-primary">New</span> Projects Manager Volunter in need :)
+      </p>
+    </div>
+  </section>
+  <div style="text-align:center">
+    <owl-carousel-o [options]="customOptions">
+      <ng-template carouselSlide><img src="../../assets/Images/placeHolder.png"></ng-template>
+      <ng-template carouselSlide><img src="../../assets/Images/placeHolder.png"></ng-template>
+      <ng-template carouselSlide><img src="../../assets/Images/placeHolder.png"></ng-template>
+      <ng-template carouselSlide><img src="../../assets/Images/placeHolder.png"></ng-template>
+      <ng-template carouselSlide><img src="../../assets/Images/placeHolder.png"></ng-template>
+    </owl-carousel-o>
   </div>
-</section>
-<app-info-card [cardContent]="cardContent"></app-info-card>
+  <section>
+    <div class="container">
+      <div class=" box cta columns is-multiline main-barner">
+        <div class="column is-one-third">
+          <a href="/">
+            <article class="notification media has-background-white">
+              <figure class="media-left">
+                <span class="icon">
+                  <img src="../../assets/Images/icons/charity.png">
+                </span>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <h1 class="title is-size-4">Donate</h1>
+                  <p class="is-size-5 subtitle">
+                    Your donation will make a difference
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+        </div>
+        <div class="column is-one-third">
+          <a href="/">
+            <article class="notification media has-background-white">
+              <figure class="media-left">
+                <span class="icon">
+                  <img src="../../assets/Images/icons/volunteer.png">
+                </span>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <h1 class="title is-size-4">Volunter</h1>
+                  <p class="is-size-5 subtitle">
+                    Joint the team and make a difference
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+        </div>
+        <div class="column is-one-third">
+          <a href="/">
+            <article class="notification media has-background-white">
+              <figure class="media-left">
+                <span class="icon">
+                  <img src="../../assets/Images/icons/register.png">
+                </span>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <h1 class="title is-size-4">Sign up</h1>
+                  <p class="is-size-5 subtitle">
+                    Sign up and enjoy all the benefits Ucomm offers
+                  </p>
+                </div>
+              </div>
+            </article>
+          </a>
+        </div>
+      </div>
+    </div>
+
+     <app-info-card [cardContent]="cardContent"></app-info-card>
+
+     <section class="hero is-light container is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <p class="title">
+            Running projects 
+          </p>
+          <p class="subtitle">
+            Projects that might interest you
+          </p>
+        </div>
+      </div>
+    </section>
+  </section>
+ 
+</article>
