@@ -5,19 +5,24 @@
 .column a {
   text-decoration: none;
 }
-.card-content{
-  background-color:rgb(250, 250, 250);
+
+.card-content {
+  background-color: rgb(250, 250, 250);
 }
 
 .container .content {
   overflow: auto;
 }
 
-.features{
+.features {
   margin-top: 20px;
 }
 
-.container{
+.content {
+  text-align: left
+}
+
+.container {
   padding-left: 0;
   padding-right: 0;
 }

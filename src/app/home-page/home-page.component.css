@@ -8,7 +8,7 @@ h1 {
   color: black;
 }
 
- .is-one-third {
+.is-one-third {
   overflow: hidden;
 }
 
@@ -21,11 +21,12 @@ h1 {
   width: 3.9rem;
 }
 
-.notification{
+.notification {
   padding-left: 0;
   padding-right: 0;
 }
-.main-barner{
+
+.main-barner {
   margin-top: 10px;
 }
 
@@ -34,11 +35,44 @@ article {
   margin-right: 10px;
   text-align: justify;
 }
-.is-info{
+
+.is-info {
   margin-bottom: 20px;
 }
-.is-light{
+
+.is-light {
   margin-top: 40px;
+}
+
+.is-light a {
+  text-decoration: none;
+}
+
+.projects h3 {
+  color: black;
+  text-align: center;
+  font-size: larger;
+}
+
+.projects i {
+  text-decoration: none;
+  color: black;
+}
+
+.projects {
+  border-left: solid;
+  border-color: darkred;
+}
+.projects img{
+  text-align: center;
+}
+
+.is-horizontal-center {
+  justify-content: center;
+}
+
+.projects {
+  font-size: large;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {

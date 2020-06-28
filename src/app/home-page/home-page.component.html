@@ -27,7 +27,7 @@
   </div>
   <section>
     <div class="container">
-      <div class=" box cta columns is-multiline main-barner">
+      <div class="box cta columns is-multiline main-barner main-nav">
         <div class="column is-one-third">
           <a href="/">
             <article class="notification media has-background-white">
@@ -88,20 +88,60 @@
       </div>
     </div>
 
-     <app-info-card [cardContent]="cardContent"></app-info-card>
+    <app-info-card [cardContent]="cardContent"></app-info-card>
 
-     <section class="hero is-light container is-bold">
-      <div class="hero-body">
-        <div class="container">
-          <p class="title">
-            Running projects 
-          </p>
-          <p class="subtitle">
-            Projects that might interest you
-          </p>
+    <section class="hero is-light container is-bold">
+      <a href="#">
+        <div class="hero-body">
+          <div class="container columns">
+            <div class="column is-one-third">
+              <p class="title">
+                Running projects
+              </p>
+              <p class="subtitle">
+                Projects that might interest you
+              </p>
+            </div>
+
+            <div class="column is-one-third projects">
+              <h3 class="is-centered">Football</h3>
+              <div class="is-flex is-horizontal-center">
+                <img src="../../assets/Images/icons/football-field.png" width="100" height="40">
+              </div>
+              <div>
+                <i class="fa fa-gbp" aria-hidden="true"> Free</i>
+              </div>
+              <div>
+                <a target="blank" href="https://www.google.com/maps/place/Trafford+Way,+Manchester+M17+8DD/@53.4705786,-2.3811054,14.67z/
+                  data=!4m5!3m4!1s0x487baeb39fdda105:0xcc1a0f2a20ca8688!8m2!3d53.469229!4d-2.3648755">
+                  <i class="fa fa-map-marker" aria-hidden="true"> Trafford Park, Stretford, Manchester M17 8DD</i></a>
+              </div>
+              <div>
+                <i class="fa fa-clock-o" aria-hidden="true"> Every Saturday at 3:00PM</i>
+              </div>
+            </div>
+
+            <div class="column is-one-third projects">
+              <h3 class="is-centered">Netball</h3>
+              <div class="is-flex is-horizontal-center">
+                <img src="../../assets/Images/icons/mesh.png" width="100" height="40">
+              </div>
+              <div>
+                <i class="fa fa-gbp" aria-hidden="true"> Free</i>
+              </div>
+              <div>
+                <a target="blank" href="https://www.google.com/maps/place/Trafford+Way,+Manchester+M17+8DD/@53.4705786,-2.3811054,14.67z
+                  /data=!4m5!3m4!1s0x487baeb39fdda105:0xcc1a0f2a20ca8688!8m2!3d53.469229!4d-2.3648755">
+                  <i class="fa fa-map-marker" aria-hidden="true"> Trafford Park, Stretford, Manchester M17 8DD</i></a>
+              </div>
+              <div>
+                <i class="fa fa-clock-o" aria-hidden="true"> Every Saturday at 3:00PM</i>
+              </div>
+            </div>
+
+          </div>
         </div>
-      </div>
+      </a>
     </section>
   </section>
- 
 </article>
