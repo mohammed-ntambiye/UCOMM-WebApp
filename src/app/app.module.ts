@@ -8,6 +8,7 @@ import { FooterComponent } from './core/components/footer/footer.component';
 import { InfoCardComponent } from './Shared/info-card/info-card.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HomePageComponent,
     HeaderComponent,
     FooterComponent,
-    InfoCardComponent
+    InfoCardComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
