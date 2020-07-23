@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { EmailService } from '../email.service';
 
 @Component({
   selector: 'app-contact-us',
@@ -10,7 +9,7 @@ import { EmailService } from '../email.service';
 export class ContactUsComponent implements OnInit {
 
   contactUsForm: FormGroup
-  constructor(EmailService: EmailService) { }
+  constructor() { }
 
   ngOnInit(): void {
     this.contactUsForm = new FormGroup({
