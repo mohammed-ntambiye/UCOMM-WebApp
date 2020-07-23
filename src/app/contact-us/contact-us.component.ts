@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { IcardInfo } from '../Interfaces/icard-info';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
