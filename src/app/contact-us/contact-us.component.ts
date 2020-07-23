@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { IcardInfo } from '../Interfaces/icard-info';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { EmailService } from '../email.service';
 
@@ -10,27 +9,28 @@ import { EmailService } from '../email.service';
 })
 export class ContactUsComponent implements OnInit {
 
-  contactUsForm = new FormGroup({
-    Names: new FormControl('',
-      [
-        Validators.required,
-        Validators.minLength(1)
-      ]),
-    Email: new FormControl('',
-      [
-        Validators.email,
-        Validators.required]
-    ),
-    Message: new FormControl('',
-      [
-        Validators.required,
-        Validators.minLength(4)
-      ])
-  });
-
+  contactUsForm: FormGroup
   constructor(EmailService: EmailService) { }
 
-  ngOnInit(): void { }
+  ngOnInit(): void {
+    this.contactUsForm = new FormGroup({
+      Names: new FormControl('',
+        [
+          Validators.required,
+          Validators.minLength(1)
+        ]),
+      Email: new FormControl('',
+        [
+          Validators.email,
+          Validators.required]
+      ),
+      Message: new FormControl('',
+        [
+          Validators.required,
+          Validators.minLength(4)
+        ])
+    });
+  }
 
   public validateNames() {
     return !this.contactUsForm.controls.Names.valid &&
