@@ -1,0 +1,31 @@
+img {
+  border-radius: 30%;
+}
+
+.chair-section {
+  margin-top: 20px;
+}
+
+.chair-image {
+  margin-top: 20px;
+}
+
+.role-section {
+  margin-bottom: 10px;
+}
+
+.role-section h4 {
+  font-size: large;
+  font-weight: bold;
+}
+
+.subtitle-bordered {
+  padding-top: 20px;
+  border-top: 2px solid #333333;
+}
+
+.overview ul {
+  list-style: none;
+  margin-left: 0;
+  margin-top: 0;
+}

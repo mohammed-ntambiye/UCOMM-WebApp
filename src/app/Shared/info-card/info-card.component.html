@@ -1,7 +1,7 @@
 <section class="container">
   <div class="columns features">
     <div class="column is-4" *ngFor="let item of content">
-      <a href="/">
+      <a routerLink={{item.src}}>
         <div class="card is-shady">
           <div class="card-image">
             <figure class="image is-4by3">
