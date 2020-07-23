@@ -16,7 +16,7 @@
 </article>
 
 <body>
-  <router-outlet></router-outlet>
+  <router-outlet (activate)="onActivate($event)"></router-outlet>
 </body>
 <app-footer></app-footer>
 

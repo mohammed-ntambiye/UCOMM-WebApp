@@ -1,0 +1,56 @@
+import { Component, OnInit } from '@angular/core';
+import { IcardInfo } from '../Interfaces/icard-info';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { EmailService } from '../email.service';
+
+@Component({
+  selector: 'app-contact-us',
+  templateUrl: './contact-us.component.html',
+  styleUrls: ['./contact-us.component.css']
+})
+export class ContactUsComponent implements OnInit {
+
+  contactUsForm = new FormGroup({
+    Names: new FormControl('',
+      [
+        Validators.required,
+        Validators.minLength(1)
+      ]),
+    Email: new FormControl('',
+      [
+        Validators.email,
+        Validators.required]
+    ),
+    Message: new FormControl('',
+      [
+        Validators.required,
+        Validators.minLength(4)
+      ])
+  });
+
+  constructor(EmailService: EmailService) { }
+
+  ngOnInit(): void { }
+
+  public validateNames() {
+    return !this.contactUsForm.controls.Names.valid &&
+      (this.contactUsForm.controls.Names.dirty ||
+        this.contactUsForm.controls.Names.touched)
+  }
+
+  public validateEmail() {
+    return !this.contactUsForm.controls.Email.valid &&
+      (this.contactUsForm.controls.Email.dirty ||
+        this.contactUsForm.controls.Email.touched)
+  }
+
+  public validateMessage() {
+    return !this.contactUsForm.controls.Message.valid &&
+      (this.contactUsForm.controls.Message.dirty ||
+        this.contactUsForm.controls.Message.touched)
+  }
+
+  onSubmit() {
+    console.warn(this.contactUsForm.value);
+  }
+}
