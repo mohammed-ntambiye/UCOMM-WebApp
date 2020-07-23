@@ -74,3 +74,8 @@ article {
 .projects {
   font-size: large;
 }
+
+.owl-carousel .owl-item img {
+  display: block;
+  height: 80em !important;
+}

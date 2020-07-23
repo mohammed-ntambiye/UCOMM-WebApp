@@ -12,20 +12,20 @@
       <span aria-hidden="true"></span>
     </a>
   </div>
-  <div id="main-nav" [ngClass]="active ? 'is-active' : ''"  class="navbar-menu">
+  <div id="main-nav" [ngClass]="active ? 'is-active' : ''" class="navbar-menu">
     <div class="navbar-start">
-      <a [routerLink]="['']" routerLinkActive="router-link-active"  class="navbar-item">
+      <a [routerLink]="['']" routerLinkActive="router-link-active" class="navbar-item">
         Home
       </a>
       <a class="navbar-item">
         Projects
       </a>
-      <a class="navbar-item">
+      <!-- <a class="navbar-item">
         Member Area
       </a>
       <a class="navbar-item">
         Volenteer
-      </a>
+      </a> -->
       <a class="navbar-item">
         Events
       </a>
@@ -44,9 +44,15 @@
     <div class="navbar-end">
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
-          Contact
+          UCOMM
         </a>
         <div class="navbar-dropdown">
+          <a [routerLink]="['/about-us']" routerLinkActive="router-link-active" class="navbar-item">
+            About us
+          </a>
+          <a [routerLink]="['/contact-us']" routerLinkActive="router-link-active" class="navbar-item">
+            Contact us
+          </a>
           <a class="navbar-item">
             Useful links
           </a>
@@ -58,11 +64,12 @@
             <strong>Register</strong>
           </a>
         </div>
+
       </div>
       <div class="social-icons">
         <div class="navbar-item">
           <span class="icon">
-           <a href="https://www.facebook.com/ucommsocial/"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/ucommsocial/"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a>
           </span>
           <span class="icon">
             <a href="https://twitter.com/ucommsocial"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a>
@@ -71,7 +78,7 @@
             <a href=""><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a>
           </span>
           <span class="icon">
-           <a href="mailto:office@ucomm.org.uk"> <i class="fa fa-envelope fa-1x" aria-hidden="true"></i></a>
+            <a href="mailto:office@ucomm.org.uk"> <i class="fa fa-envelope fa-1x" aria-hidden="true"></i></a>
           </span>
         </div>
       </div>

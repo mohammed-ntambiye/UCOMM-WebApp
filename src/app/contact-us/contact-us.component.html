@@ -1,0 +1,115 @@
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">Helping Black, Asian, And Ethnic Minority Communities in Greater Manchester, and Beyond</h1>
+    </div>
+  </div>
+</section>
+<section class="hero is-fullheight">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div class="columns is-8 is-variable ">
+        <div class="column is-two-thirds has-text-left">
+          <h1 class="title is-1">Contact Us</h1>
+          <p class="is-size-4">You can reach us on one of the specified communication tools. We try to answer queries as quickly as possible. Thanks for getting in touch</p>
+          <div class="social-media">
+            <a href="https://facebook.com/ucommsocial" target="_blank" class="button is-light is-large"><i class="fa fa-facebook"
+                aria-hidden="true"></i></a>
+            <a href="https://instagram.com/ucommsocial" target="_blank" class="button is-light is-large"><i class="fa fa-instagram"
+                aria-hidden="true"></i></a>
+            <a href="https://twitter.com/ucommsocial" target="_blank" class="button is-light is-large"><i class="fa fa-twitter"
+                aria-hidden="true"></i></a>
+          </div>
+          <article class="container">
+            <section class="columns contact-us-section">
+              <div class="column is-one-thirds contact-us">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-left">
+                        <figure class="image is-48x48">
+                          <i class="fa fa-phone fa-3x" aria-hidden="true"></i>
+                        </figure>
+                      </div>
+                      <div class="media-content">
+                        <p class="title is-4">Telephone</p>
+                      </div>
+                    </div>
+
+                    <div class="content">
+                      <p>
+                        <b>Telephone: </b> 0161 222 7933 <br>
+                      </p>
+                      <p><b> Charity No</b>: 1123706 </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-one-thirds contact-us">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-left">
+                        <figure class="image is-48x48">
+                          <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+                        </figure>
+                      </div>
+                      <div class="media-content">
+                        <p class="title is-4">Post</p>
+                      </div>
+                    </div>
+
+                    <div class="content">
+                      <p>
+                        <b>Address: </b> Surcon House, Withington, <br>
+                        Manchester, M20 3HE <br>
+                      </p>
+                      <p><b> Charity No</b>: 1123706 </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </article>
+        </div>
+        <div class="column is-one-third has-text-left">
+          <form (ngSubmit)="onSubmit()" [formGroup]="contactUsForm">
+            <div class="field">
+              <label class="label">Name</label>
+              <div class="control">
+                <input formControlName="Names" class="input is-medium form-control" type="text">
+              </div>
+              <div *ngIf="validateNames()" class="alert alert-danger">
+                <p>Your name is required</p>     
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control">
+                <input formControlName="Email" class="input is-medium" type="text">
+              </div>
+              <div *ngIf="validateEmail()" class="alert alert-danger">
+                <p>Invalid email</p>     
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Message</label>
+              <div class="control">
+                <textarea maxlength="300" formControlName="Message" class="textarea is-medium"></textarea>
+              </div>
+              <div *ngIf="validateMessage()" class="alert alert-danger">
+                <p>Please fill in the form</p>     
+              </div>
+            </div>
+            <div class="control">
+              <button type="submit" [disabled]="!contactUsForm.valid"
+                class="button is-link is-fullwidth has-text-weight-medium is-medium">Send
+                Message</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

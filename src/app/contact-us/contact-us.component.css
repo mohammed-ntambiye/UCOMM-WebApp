@@ -1,0 +1,23 @@
+.contact-us {
+  margin: 10px;
+}
+
+.contact-us-section {
+  margin-top: 20px;
+}
+
+.hero-body {
+  margin: 30px;
+}
+
+.card {
+  height: 100%;
+}
+
+textarea {
+  font-size: 10px;
+}
+.hero-body{
+  margin-top: 0;
+  padding-top: 0;
+}
