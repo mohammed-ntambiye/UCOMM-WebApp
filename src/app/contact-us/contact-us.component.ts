@@ -8,27 +8,28 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 })
 export class ContactUsComponent implements OnInit {
 
-  contactUsForm = new FormGroup({
-    Names: new FormControl('',
-      [
-        Validators.required,
-        Validators.minLength(1)
-      ]),
-    Email: new FormControl('',
-      [
-        Validators.email,
-        Validators.required]
-    ),
-    Message: new FormControl('',
-      [
-        Validators.required,
-        Validators.minLength(4)
-      ])
-  });
-
+  contactUsForm: FormGroup
   constructor() { }
 
-  ngOnInit(): void { }
+  ngOnInit(): void {
+    this.contactUsForm = new FormGroup({
+      Names: new FormControl('',
+        [
+          Validators.required,
+          Validators.minLength(1)
+        ]),
+      Email: new FormControl('',
+        [
+          Validators.email,
+          Validators.required]
+      ),
+      Message: new FormControl('',
+        [
+          Validators.required,
+          Validators.minLength(4)
+        ])
+    });
+  }
 
   public validateNames() {
     return !this.contactUsForm.controls.Names.valid &&
