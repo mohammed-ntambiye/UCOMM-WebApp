@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { IPersoninfo } from '../../Interfaces/IPerson-info';
+import { IPersoninfo } from "../../Interfaces/IPersoninfo";
 
 @Component({
   selector: 'app-person-info-card',

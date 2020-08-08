@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IPersoninfo } from '../Interfaces/IPerson-info';
+import { IPersoninfo } from "../Interfaces/IPersoninfo";
 
 @Component({
   selector: 'app-meet-the-team',
