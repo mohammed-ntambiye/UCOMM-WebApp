@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import {IcardInfo} from '../../Interfaces/icard-info'
+import {IcardInfo} from '../../Interfaces/Icard-info'
 
 @Component({
   selector: 'app-info-card',

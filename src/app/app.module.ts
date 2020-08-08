@@ -11,6 +11,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ReactiveFormsModule,FormsModule  } from '@angular/forms';
+import { MeetTheTeamComponent } from './meet-the-team/meet-the-team.component';
+import { PersonInfoCardComponent } from './Shared/person-info-card/person-info-card.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ReactiveFormsModule,FormsModule  } from '@angular/forms';
     FooterComponent,
     InfoCardComponent,
     AboutUsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    MeetTheTeamComponent,
+    PersonInfoCardComponent
   ],
   imports: [
     BrowserModule,

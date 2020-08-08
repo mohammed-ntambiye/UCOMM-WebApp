@@ -1,0 +1,11 @@
+
+ <div class="container">
+  <div class="row">
+    <div class="col-lg-{{containerSize}} col-md-6 p-4" *ngFor="let item of content"> 
+      <img class="img-fluid d-block mb-3 mx-auto rounded-circle" alt="Card image cap"
+        width="200" src="../../assets/Images/{{item.ImageName}}">
+      <h4> <b>{{item.Name}}</b> </h4>
+      <p class="mb-0">{{item.Title}}</p>
+    </div>
+  </div>
+</div>

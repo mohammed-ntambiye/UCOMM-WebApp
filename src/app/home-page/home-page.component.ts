@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IcardInfo } from '../Interfaces/icard-info'
+import { IcardInfo } from '../Interfaces/Icard-info'
 import *  as  data from './config.json';
 
 
