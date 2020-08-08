@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { IcardInfo } from '../Interfaces/Icard-info';
 import { IPersoninfo } from '../Interfaces/IPerson-info';
 
 @Component({
