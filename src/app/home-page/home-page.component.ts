@@ -10,17 +10,28 @@ import *  as  data from './config.json';
 })
 export class HomePageComponent implements OnInit {
   customOptions: any = {
-    loop: false,
+    loop: true,
     mouseDrag: true,
+    autoplay: true,
     touchDrag: true,
+    autoHeight: true,
+    autoWidth: true,
     pullDrag: true,
     dots: true,
-    autoplaySpeed :true,
+    autoplaySpeed: 1,
     margin: 5,
     navSpeed: 700,
     responsive: {
-      0: { items: 1 }, 400: { items: 2 }, 740: { items: 3 }, 940: { items: 4 }
-    },
+      0: { 
+        items: 1 
+      },
+      600: { 
+        items: 2 
+      },
+      1000: { 
+        items: 3 
+      }
+    }
   }
   public cardContent: IcardInfo[] = [
     {
