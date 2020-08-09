@@ -1,11 +1,11 @@
 
   <div class="columns features">
     <div class="column is-4" *ngFor="let item of content">
-      <a routerLink={{item.src}}>
+      <a routerLink={{item.Src}}>
         <div class="card is-shady">
           <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="https://source.unsplash.com/RWnpyGtY1aU" alt="Placeholder image" class="modal-button"
+            <figure class="image is-4by3 {{item.StylingClass}}">
+              <img src="../../../assets/Images/{{item.ImageUrl}}" alt="Placeholder image" class="modal-button"
                 data-target="modal-image2">
             </figure>
           </div>

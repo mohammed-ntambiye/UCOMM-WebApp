@@ -38,19 +38,22 @@ export class HomePageComponent implements OnInit {
       Title: data.AboutUs.Title,
       Content: data.AboutUs.Content,
       ImageUrl: data.AboutUs.ImageUrl,
-      src: data.AboutUs.src
+      Src: data.AboutUs.Src,
+      StylingClass : data.AboutUs.StylingClass
     },
     {
       Title: data.Aim.Title,
       Content: data.Aim.Content,
       ImageUrl: data.Aim.ImageUrl,
-      src: data.Aim.src
+      Src: data.Aim.Src,
+      StylingClass : data.Aim.StylingClass
     },
     {
       Title: data.Donations.Title,
       Content: data.Donations.Content,
       ImageUrl: data.Donations.ImageUrl,
-      src: data.Donations.src
+      Src: data.Donations.Src,
+      StylingClass : data.Donations.StylingClass
     }
   ];
   constructor() { }
