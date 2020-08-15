@@ -1,0 +1,54 @@
+<section class="hero is-info is-medium is-bold">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">Useful links</h1>
+    </div>
+  </div>
+</section>
+<article class="section container">
+    <div class="columns">
+        <div class="card column is-one-fifth" >
+            <div class="card-header">
+             <b>  Charities Organisations</b>
+            </div>
+            <ul class="list-group list-group-flush" *ngFor="let item of linksCharities">
+              <li class="list-group-item"><a href="{{item.src}}">{{item.title}}</a></li>
+            </ul>
+          </div>
+          <div class="card column is-one-fifth" >
+            <div class="card-header">
+                <b>Travel & Tourism</b>
+            </div>
+            <ul class="list-group list-group-flush" *ngFor="let item of linksTravelTourism">
+              <li class="list-group-item"><a href="{{item.src}}">{{item.title}}</a></li>
+            </ul>
+          </div>
+          <div class="card column is-one-fifth" >
+            <div class="card-header">
+                <b>Faith & Religion</b>
+            </div>
+            <ul class="list-group list-group-flush" *ngFor="let item of liksUgandaChurchAssociation">
+              <li class="list-group-item"><a href="{{item.src}}">{{item.title}}</a></li>
+            </ul>
+          </div>
+          <div class="card column is-one-fifth" >
+            <div class="card-header">
+                <b>Links to Uganda</b>
+            </div>
+            <ul class="list-group list-group-flush" *ngFor="let item of linksLinksUganda">
+              <li class="list-group-item"><a href="{{item.src}}">{{item.title}}</a></li>
+            </ul>
+          </div>
+          <div class="card column is-one-fifth" >
+            <div class="card-header">
+                <b>Health & Wellbeing</b>
+            </div>
+            <ul class="list-group list-group-flush" *ngFor="let item of linksHealthWellbeing">
+              <li class="list-group-item"><a href="{{item.src}}">{{item.title}}</a></li>
+            </ul>
+          </div>
+      </div>
+
+
+
+</article>

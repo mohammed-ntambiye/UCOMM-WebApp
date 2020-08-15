@@ -1,0 +1,76 @@
+{
+    "Charities": [
+      {
+        "title": "Engineers For Overseas Development (EFOD)",
+        "src": "http://www.efod.org.uk/"
+      },
+      {
+        "title": "Act 4 Africa",
+        "src": "https://www.act4africa.org/about-us/"
+      },
+      {
+        "title": "The Pakistani Resource Centre",
+        "src": "http://www.pakistani-resource.org.uk/index-2.html"
+      },
+      {
+        "title": "Chance For Childhood",
+        "src": "https://chanceforchildhood.org/where-we-work/uganda/?gclid=COmkifDDss8CFcGVGwod6KkNzA"
+      },
+      {
+        "title": "Buganda-Heritage",
+        "src": "http://www.bugandaheritage.org.uk/#sthash.FhC5PVQi.dpbs"
+      },
+      {
+        "title": "Uganda Charity Relief Association",
+        "src": "https://www.ucra.org.uk/"
+      },
+      {
+        "title": "East African Association",
+        "src": "http://www.eaa-lon.co.uk/"
+      }
+    ],
+    "TravelTourism": [
+      {
+        "title": "Uganda-Travel-Advice",
+        "src": "https://www.gov.uk/foreign-travel-advice/uganda/entry-requirements"
+      },
+      {
+        "title": "Ugandan Embassy in London",
+        "src": "http://uganda.embassyhomepage.com/"
+      },
+      {
+        "title": "Uganda Visa HQ",
+        "src": "https://www.visahq.co.uk/uganda/"
+      }
+    ],
+    "HealthWellbeing": [
+      {
+        "title": "Ugandan Diaspora Health Foundation",
+        "src": "http://www.ugandadiasporahealthfoundation.org/"
+      }
+    ],
+    "UgandaChurchAssociation": [
+      {
+        "title": "Ugandan Diaspora Health Foundation",
+        "src": "http://www.ugandachurchassociation.org/annual-newsletters/99-2/acholi-london-christian-fellowship/"
+      }
+    ],
+    "LinksUganda": [
+      {
+        "title": "Buganda Land Board",
+        "src": "http://www.bugandalandboard.or.ug/"
+      },
+      {
+        "title": "Brits in Uganda",
+        "src": "https://www.internations.org/uganda-expats/british"
+      },
+      {
+        "title": "Ugandan Expatriates in London",
+        "src": "https://www.expat.com/en/network/ugandan/in/58-london/"
+      },
+      {
+        "title": "Ugandan Diaspora",
+        "src": "http://www.ugandandiasporanews.com/"
+      }
+    ]
+  }

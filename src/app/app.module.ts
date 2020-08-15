@@ -13,6 +13,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ReactiveFormsModule,FormsModule  } from '@angular/forms';
 import { MeetTheTeamComponent } from './meet-the-team/meet-the-team.component';
 import { PersonInfoCardComponent } from './Shared/person-info-card/person-info-card.component';
+import { UsefulLinksComponent } from './useful-links/useful-links.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PersonInfoCardComponent } from './Shared/person-info-card/person-info-c
     AboutUsComponent,
     ContactUsComponent,
     MeetTheTeamComponent,
-    PersonInfoCardComponent
+    PersonInfoCardComponent,
+    UsefulLinksComponent
   ],
   imports: [
     BrowserModule,
