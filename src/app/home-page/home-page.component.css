@@ -63,7 +63,8 @@ article {
   border-left: solid;
   border-color: darkred;
 }
-.projects img{
+
+.projects img {
   text-align: center;
 }
 
@@ -75,7 +76,10 @@ article {
   font-size: large;
 }
 
-.owl-carousel .owl-item img {
-  display: block;
-  height: 80em !important;
+.section {
+  margin-top: 10px;
+}
+
+.home-barner {
+  padding-top: 10px;
 }
